@@ -1,0 +1,41 @@
+.lesson {
+  width: 200px; 
+  height: auto;
+}
+
+.title {
+  color: darkblue;
+}
+
+#email {
+  background-color: goldenrod;
+}
+
+#github {
+  background-color: lightsteelblue;
+}
+
+#portfolio {
+  background-color: darkorange;
+}
+#section1 {
+  background-color: purple;
+  color: yellow;
+}
+.section-blue {
+  background-color:blue ;
+  color: orange;
+}
+.container {
+  background-color: black;
+}
+.section-white {
+  color: white;
+}
+#section-6 {
+  color: yellow;
+}
+#photo {
+  width: 100%;
+  height: auto;
+}
