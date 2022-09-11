@@ -39,3 +39,15 @@
   width: 100%;
   height: auto;
 }
+#activties {
+  font-weight: bolder;
+}
+#Coffee-recs {
+  font-size: 24px;
+}
+#random {
+  line-height:50px ;
+}
+.section2 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
