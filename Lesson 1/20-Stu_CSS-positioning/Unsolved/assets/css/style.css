@@ -51,7 +51,10 @@ header {
 /* Box 2 in Square 2 */
 #absolute-box-2 {
   position: absolute;
-  top: 0;
   left: 800px;
   /* TODO: Set the position so it is outside of the upper-right corner of Square 2 */
+}
+#relative-box-3 {
+  position: relative;
+  left: 400px;
 }
