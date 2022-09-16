@@ -113,6 +113,7 @@ select:hover, button:hover {
 }
 
 /* What does this pseudo-class mean? */
+/*Changes the right border width when hovering over it  */
 .text-input:focus {
   border-right-width: 5px;
 }

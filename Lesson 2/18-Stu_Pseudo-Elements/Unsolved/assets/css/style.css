@@ -59,6 +59,27 @@ article p {
   font-size: 110%;
 }
 
+span.test:hover{
+color: red;
+text-decoration: underline;
+cursor: pointer;
+}
+span[data-descr]:hover {
+  position: relative;
+  text-decoration: underline;
+  color:grey;
+  cursor:grab;
+}
+span[data-descr]:hover::after {
+  content: attr(data-descr);
+  position: absolute;
+ 
+  min-width: 200px;
+  background-color: #13293d;
+  color: white;
+  border: 3px;
+  font-size: 75%;
+}
 /* TODO: Style the term/phrase - underline, black text, grab cursor */
 
 /* TODO: Position tooltip above the term/phrase, same color as header and nav links, no border-radius, smaller font size */
